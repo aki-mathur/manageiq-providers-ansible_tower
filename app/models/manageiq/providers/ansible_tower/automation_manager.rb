@@ -10,6 +10,7 @@ class ManageIQ::Providers::AnsibleTower::AutomationManager < ManageIQ::Providers
   require_nested :VaultCredential
   require_nested :NetworkCredential
   require_nested :OpenstackCredential
+  require_nested :TelefonicaCredential
   require_nested :ScmCredential
   require_nested :Satellite6Credential
   require_nested :VmwareCredential
